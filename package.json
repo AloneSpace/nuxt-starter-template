@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-starter-firebase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "gen_key": "node api/utils/generateKey.js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^7.6.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.15.1",
+    "express": "^4.17.1",
+    "firebase": "^8.7.1",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.15.7",
+    "sweetalert2": "^11.0.18",
+    "vuesax": "^4.0.1-alpha.25"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "cookie-parser": "^1.4.5",
+    "firebase-admin": "^9.11.0",
+    "nuxt-vite": "^0.1.1",
+    "nuxt-windicss": "^1.1.3"
+  }
+}
